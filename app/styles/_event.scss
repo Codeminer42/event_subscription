@@ -1,0 +1,53 @@
+/*
+ * Component: Event
+ */
+
+.event {
+  padding: 60px 0;
+  color: #fff;
+  background-color: $red;
+
+  &__background {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 450px;
+    height: 300px;
+    background: url('../images/miner.svg') no-repeat right bottom;
+    background-size: 450px auto;
+  }
+
+  &__title,
+  &__subtitle,
+  &__body {
+    width: 64%;
+  }
+
+  &__title {
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+
+  &__body {
+    font-size: 20px;
+    line-height: 1.33;
+
+    &:last-child {
+      margin-bottom: 65px;
+    }
+  }
+
+  &__emoji {
+    position: relative;
+    top: 2.5px;
+    margin-left: 3px;
+  }
+
+  a {
+    color: $yellow;
+  }
+
+  b {
+    font-weight: 700;
+  }
+}
