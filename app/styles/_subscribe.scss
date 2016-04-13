@@ -1,0 +1,45 @@
+/*
+ * Subscribe
+ */
+
+.subscribe {
+  padding: 50px 0;
+
+  .form-group {
+    margin-bottom: 30px;
+  }
+
+  label {
+    font-size: 18px;
+    font-weight: 400;
+    color: $red;
+  }
+
+  .form-control {
+    color: $red;
+    border-color: rgba($red, .4);
+    box-shadow: none;
+
+    &:focus {
+      border-color: $red;
+    }
+  }
+
+  .btn {
+    color: $red;
+    border-color: $red;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+      background-color: $red;
+      border-color: $red;
+    }
+  }
+
+  &__required {
+    margin: 0;
+    font-size: 13px;
+    color: $red;
+  }
+}
