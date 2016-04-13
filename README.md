@@ -17,7 +17,7 @@
 $ npm install
 ```
 
-## Run in the browser
+## Run in your browser
 
 ```
 $ gulp serve
