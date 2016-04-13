@@ -1,4 +1,4 @@
-Codeminer 42 Event Subscription
+# Codeminer 42 Event Subscription
 
 - [x] Bootstrap
 - [x] Sass
