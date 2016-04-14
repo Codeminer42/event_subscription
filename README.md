@@ -32,6 +32,7 @@ $ gulp
 ## Deploy to gh-pages
 
 ```
+$ npm install && bower install
 $ gulp build
 $ gulp deploy
 ```
