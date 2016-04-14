@@ -6,8 +6,69 @@ header {
   padding: 35px 0 0;
   background-color: $red;
 
-  img {
+  .codeminer-logo {
     height: 85px;
     display: block;
+  }
+
+  .nav {
+    float: right;
+  }
+
+  .nav > li {
+    a {
+      color: #fff;
+      background: none;
+      border: none;
+    }
+
+    &:hover a,
+    &:focus a,
+    a:focus {
+      color: $yellow;
+      background: none;
+      border: none;
+    }
+
+    &:last-child a {
+      padding-right: 0;
+    }
+  }
+
+  .navbar-toggle {
+    height: 70px;
+    margin: 0;
+
+    .icon-bar {
+      background-color: #fff;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(#fff, .4);
+
+    .codeminer-logo {
+      height: 70px;
+    }
+  }
+}
+
+.navbar-collapse {
+  background-color: lighten($red, 5);
+  border: none;
+  box-shadow: none;
+
+  .nav > li > a {
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+
+    &:hover,
+    &:focus {
+      color: $yellow;
+      background: none;
+      border: none;
+    }
   }
 }
