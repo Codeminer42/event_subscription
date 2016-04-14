@@ -1,0 +1,21 @@
+body {
+  position: relative;
+}
+
+.cheet {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/images/r.gif');
+  background-size: cover;
+  background-color: #fff;
+
+  transition: background-color 1000ms ease;
+
+  &--without-gif {
+    background-image: none;
+    background: transparent;
+  }
+}
