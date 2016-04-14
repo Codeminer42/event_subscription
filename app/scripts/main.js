@@ -15,3 +15,9 @@ cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () {
     }, 1000);
   }, 4000);
 });
+
+$(document).ready(function(){
+  $('form').submit(function(e) {
+    $(".result").text("deu certo ;)");
+  });
+});

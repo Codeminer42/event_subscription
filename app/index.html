@@ -78,21 +78,22 @@
     <div class="row">
       <div class="col-xs-12">
 
-        <form class="subscribe__form" action="">
+        <h1 class="result"></h1>
+        <form class="subscribe__form" action="https://docs.google.com/forms/d/1Po6bRSLyatc5HVbz6BDfmu3W6Oex5sFuycgbbwOE_XI/formResponse" target="dummyframe">
 
           <div class="form-group">
             <label for="subscribeName">Nome*</label>
-            <input type="text" class="form-control input-lg" id="subscribeName">
+            <input id="name" name="entry.286286083" type="text" class="form-control input-lg">
           </div>
 
           <div class="form-group">
             <label for="subscribeEmail">E-mail (para informações sobre futuros eventos)</label>
-            <input type="name" class="form-control input-lg" id="subscribeEmail">
+            <input id="email" name="entry.1924175256" type="text" class="form-control input-lg">
           </div>
 
           <div class="form-group">
             <label for="subscribeWork">Eu sou*</label>
-            <select class="form-control input-lg" id="subscribeWork">
+            <select id="iam" name="entry.505507903" class="form-control input-lg" id="subscribeWork">
               <option>Desenvolvedor Backend</option>
               <option>Desenvolvedor Frontend</option>
               <option>Desenvolvedor Full Stack</option>
@@ -111,13 +112,15 @@
         </form>
 
         <div class="clearfix"></div>
-        
+
         <p class="subscribe__required">* Campo de preenchimento obrigatório</p>
 
       </div>
     </div>
   </div>
 </section>
+
+<iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe"></iframe>
 
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->
@@ -132,7 +135,7 @@
 <!-- endbuild -->
 
 <!-- build:js scripts/main.js -->
-<script src="scripts/main.js"></script>
+<script src="scripts/main.js"></script
 <!-- endbuild -->
 </body>
 </html>
