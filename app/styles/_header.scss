@@ -13,10 +13,12 @@ header {
 
   .nav {
     float: right;
+    height: 85px;
   }
 
   .nav > li {
     a {
+      line-height: 55px;
       color: #fff;
       background: none;
       border: none;
